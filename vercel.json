@@ -1,18 +1,8 @@
 {
-  "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "webapp/app_simple.py",
-      "use": "@vercel/python",
-      "config": {
-        "maxLambdaSize": "15mb"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "webapp/app_simple.py"
+      "source": "/(.*)",
+      "destination": "/webapp/app_simple.py"
     }
   ],
   "env": {
