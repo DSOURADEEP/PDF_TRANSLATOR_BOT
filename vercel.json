@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "webapp/app_simple.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "15mb"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "webapp/app_simple.py"
+    }
+  ],
+  "env": {
+    "PYTHONPATH": "$PYTHONPATH:./"
+  },
+  "functions": {
+    "webapp/app_simple.py": {
+      "maxDuration": 300
+    }
+  }
+}
