@@ -9,7 +9,7 @@
     "PYTHONPATH": "$PYTHONPATH:./"
   },
   "functions": {
-    "webapp/app_simple.py": {
+    "api/app_simple.py": {
       "maxDuration": 300
     }
   }
