@@ -1,0 +1,576 @@
+2025-07-22 02:21:14,465 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.18.198.192:5000
+2025-07-22 02:21:14,465 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-22 02:21:14,483 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 02:21:15,732 - WARNING -  * Debugger is active!
+2025-07-22 02:21:15,742 - INFO -  * Debugger PIN: 722-955-412
+2025-07-22 02:21:31,505 - INFO - 127.0.0.1 - - [22/Jul/2025 02:21:31] "GET / HTTP/1.1" 200 -
+2025-07-22 02:21:31,563 - INFO - 127.0.0.1 - - [22/Jul/2025 02:21:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-22 02:21:31,734 - INFO - 127.0.0.1 - - [22/Jul/2025 02:21:31] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-07-22 02:21:32,800 - INFO - 127.0.0.1 - - [22/Jul/2025 02:21:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-22 02:21:41,371 - INFO - 127.0.0.1 - - [22/Jul/2025 02:21:41] "GET /api/languages HTTP/1.1" 200 -
+2025-07-22 02:23:44,841 - INFO - 127.0.0.1 - - [22/Jul/2025 02:23:44] "POST /upload HTTP/1.1" 200 -
+2025-07-22 02:23:44,841 - INFO - Starting translation of: uploads\8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1.pdf
+2025-07-22 02:23:44,867 - INFO - Extracted 119 characters from uploads\8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1.pdf
+2025-07-22 02:23:45,074 - INFO - 127.0.0.1 - - [22/Jul/2025 02:23:45] "GET /status/8fee84fb-897f-4363-b5f1-992d4b1d9235 HTTP/1.1" 200 -
+2025-07-22 02:23:46,702 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 02:23:46,702 - INFO - Auto-detected language: french
+2025-07-22 02:23:46,703 - INFO - Translating 1 chunks from fr to en
+2025-07-22 02:23:47,080 - INFO - 127.0.0.1 - - [22/Jul/2025 02:23:47] "GET /status/8fee84fb-897f-4363-b5f1-992d4b1d9235 HTTP/1.1" 200 -
+2025-07-22 02:23:49,109 - INFO - Created translated PDF: downloads\8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en.pdf
+2025-07-22 02:23:49,110 - INFO - Translation completed: downloads\8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en.pdf
+2025-07-22 02:23:49,398 - INFO - 127.0.0.1 - - [22/Jul/2025 02:23:49] "GET /status/8fee84fb-897f-4363-b5f1-992d4b1d9235 HTTP/1.1" 200 -
+2025-07-22 02:23:50,668 - INFO - 127.0.0.1 - - [22/Jul/2025 02:23:50] "GET /download/8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en.pdf HTTP/1.1" 200 -
+2025-07-22 02:28:17,939 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 02:28:20,535 - WARNING -  * Debugger is active!
+2025-07-22 02:28:20,541 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 02:29:31,089 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.18.198.192:5000
+2025-07-22 02:29:31,089 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-22 02:29:31,106 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 02:29:32,579 - WARNING -  * Debugger is active!
+2025-07-22 02:29:32,590 - INFO -  * Debugger PIN: 722-955-412
+2025-07-22 02:29:56,776 - INFO - 127.0.0.1 - - [22/Jul/2025 02:29:56] "GET / HTTP/1.1" 200 -
+2025-07-22 02:29:56,833 - INFO - 127.0.0.1 - - [22/Jul/2025 02:29:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-22 02:29:57,013 - INFO - 127.0.0.1 - - [22/Jul/2025 02:29:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-07-22 02:30:08,132 - INFO - 127.0.0.1 - - [22/Jul/2025 02:30:08] "POST /upload HTTP/1.1" 200 -
+2025-07-22 02:30:08,132 - INFO - Starting translation of: uploads\95ed6815-f46c-4db8-999f-e79d237e6423_french_1.pdf
+2025-07-22 02:30:08,152 - INFO - Extracted 119 characters from uploads\95ed6815-f46c-4db8-999f-e79d237e6423_french_1.pdf
+2025-07-22 02:30:08,380 - INFO - 127.0.0.1 - - [22/Jul/2025 02:30:08] "GET /status/95ed6815-f46c-4db8-999f-e79d237e6423 HTTP/1.1" 200 -
+2025-07-22 02:30:09,337 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 02:30:09,338 - INFO - Auto-detected language: french
+2025-07-22 02:30:09,338 - INFO - Preserving names and entities...
+2025-07-22 02:30:09,339 - INFO - Protected 1 names/entities
+2025-07-22 02:30:09,339 - INFO - Translating 1 chunks from fr to en
+2025-07-22 02:30:10,392 - INFO - 127.0.0.1 - - [22/Jul/2025 02:30:10] "GET /status/95ed6815-f46c-4db8-999f-e79d237e6423 HTTP/1.1" 200 -
+2025-07-22 02:30:11,126 - INFO - Restoring names and entities...
+2025-07-22 02:30:11,132 - INFO - Created translated PDF: downloads\95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en.pdf
+2025-07-22 02:30:11,133 - INFO - Translation completed: downloads\95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en.pdf
+2025-07-22 02:30:12,712 - INFO - 127.0.0.1 - - [22/Jul/2025 02:30:12] "GET /status/95ed6815-f46c-4db8-999f-e79d237e6423 HTTP/1.1" 200 -
+2025-07-22 02:30:13,966 - INFO - 127.0.0.1 - - [22/Jul/2025 02:30:13] "GET /download/95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en.pdf HTTP/1.1" 200 -
+2025-07-22 02:35:45,729 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.18.198.192:5000
+2025-07-22 02:35:45,730 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-22 02:35:45,751 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 02:35:47,024 - WARNING -  * Debugger is active!
+2025-07-22 02:35:47,036 - INFO -  * Debugger PIN: 722-955-412
+2025-07-22 02:35:49,811 - INFO - 127.0.0.1 - - [22/Jul/2025 02:35:49] "GET / HTTP/1.1" 200 -
+2025-07-22 02:35:49,869 - INFO - 127.0.0.1 - - [22/Jul/2025 02:35:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-22 02:35:50,052 - INFO - 127.0.0.1 - - [22/Jul/2025 02:35:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-07-22 02:38:22,216 - INFO - 127.0.0.1 - - [22/Jul/2025 02:38:22] "GET / HTTP/1.1" 200 -
+2025-07-22 02:38:22,234 - INFO - 127.0.0.1 - - [22/Jul/2025 02:38:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-22 02:38:22,484 - INFO - 127.0.0.1 - - [22/Jul/2025 02:38:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-07-22 02:39:43,020 - INFO -  * Detected change in 'C:\\Python312\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-07-22 02:39:43,036 - INFO -  * Detected change in 'C:\\Python312\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2025-07-22 02:39:43,057 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:43] "[35m[1mGET /batch HTTP/1.1[0m" 500 -
+2025-07-22 02:39:43,135 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:43] "GET /batch?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-07-22 02:39:43,344 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 02:39:44,712 - WARNING -  * Debugger is active!
+2025-07-22 02:39:44,723 - INFO -  * Debugger PIN: 722-955-412
+2025-07-22 02:39:44,813 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:44] "GET /batch?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-07-22 02:39:54,638 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:54] "GET / HTTP/1.1" 200 -
+2025-07-22 02:39:54,934 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-22 02:39:54,966 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-07-22 02:39:56,325 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:56] "GET / HTTP/1.1" 200 -
+2025-07-22 02:39:56,419 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-22 02:39:56,590 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-07-22 02:39:57,949 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:57] "[35m[1mGET /batch HTTP/1.1[0m" 500 -
+2025-07-22 02:39:58,246 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:58] "[36mGET /batch?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-22 02:39:58,281 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:58] "GET /batch?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-07-22 02:39:58,631 - INFO - 127.0.0.1 - - [22/Jul/2025 02:39:58] "[36mGET /batch?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-07-22 02:41:01,553 - INFO - 127.0.0.1 - - [22/Jul/2025 02:41:01] "[35m[1mGET /batch HTTP/1.1[0m" 500 -
+2025-07-22 02:41:01,574 - INFO - 127.0.0.1 - - [22/Jul/2025 02:41:01] "[36mGET /batch?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-22 02:41:01,780 - INFO - 127.0.0.1 - - [22/Jul/2025 02:41:01] "[36mGET /batch?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-22 02:41:02,097 - INFO - 127.0.0.1 - - [22/Jul/2025 02:41:02] "[36mGET /batch?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-07-22 02:44:19,528 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.18.198.192:5000
+2025-07-22 02:44:19,528 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-22 02:44:19,550 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 02:44:20,826 - WARNING -  * Debugger is active!
+2025-07-22 02:44:20,836 - INFO -  * Debugger PIN: 722-955-412
+2025-07-22 02:44:23,514 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:23] "GET / HTTP/1.1" 200 -
+2025-07-22 02:44:23,574 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-22 02:44:23,767 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-07-22 02:44:25,503 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:25] "GET /batch HTTP/1.1" 200 -
+2025-07-22 02:44:25,734 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-22 02:44:25,752 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-07-22 02:44:25,829 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkrdvV HTTP/1.1[0m" 404 -
+2025-07-22 02:44:27,330 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:27] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkreI1 HTTP/1.1[0m" 404 -
+2025-07-22 02:44:29,985 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:29] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkresf HTTP/1.1[0m" 404 -
+2025-07-22 02:44:34,990 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:34] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkrg9i HTTP/1.1[0m" 404 -
+2025-07-22 02:44:39,906 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:39] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkrhHd HTTP/1.1[0m" 404 -
+2025-07-22 02:44:44,911 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:44] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkriaj HTTP/1.1[0m" 404 -
+2025-07-22 02:44:50,224 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:50] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkrjp1 HTTP/1.1[0m" 404 -
+2025-07-22 02:44:50,509 - INFO - Starting translation of: uploads\03e0b062-5343-43fe-a7c9-05c19df13b88_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en.pdf
+2025-07-22 02:44:50,511 - INFO - Starting translation of: uploads\5f4b3ead-1fd9-4b41-9e3d-ff862d115f7e_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en.pdf
+2025-07-22 02:44:50,514 - INFO - Extracted 153 characters from uploads\03e0b062-5343-43fe-a7c9-05c19df13b88_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en.pdf
+2025-07-22 02:44:50,518 - INFO - Extracted 154 characters from uploads\5f4b3ead-1fd9-4b41-9e3d-ff862d115f7e_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en.pdf
+2025-07-22 02:44:50,519 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:50] "POST /upload HTTP/1.1" 200 -
+2025-07-22 02:44:50,519 - INFO - Starting translation of: uploads\77c71561-f982-4491-b728-5b95c0126b62_french_1.pdf
+2025-07-22 02:44:50,547 - INFO - Extracted 119 characters from uploads\77c71561-f982-4491-b728-5b95c0126b62_french_1.pdf
+2025-07-22 02:44:51,259 - INFO - Detected language: en (en) with confidence None
+2025-07-22 02:44:51,260 - INFO - Detected language: en (en) with confidence None
+2025-07-22 02:44:51,260 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 02:44:51,260 - INFO - Auto-detected language: en
+2025-07-22 02:44:51,260 - INFO - Auto-detected language: en
+2025-07-22 02:44:51,261 - INFO - Auto-detected language: french
+2025-07-22 02:44:51,261 - INFO - Translating 1 chunks from en to en
+2025-07-22 02:44:51,261 - INFO - Translating 1 chunks from en to en
+2025-07-22 02:44:51,261 - INFO - Translating 1 chunks from fr to en
+2025-07-22 02:44:52,067 - INFO - Created translated PDF: downloads\5f4b3ead-1fd9-4b41-9e3d-ff862d115f7e_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en_translated_en.pdf
+2025-07-22 02:44:52,069 - INFO - Created translated PDF: downloads\77c71561-f982-4491-b728-5b95c0126b62_french_1_translated_en.pdf
+2025-07-22 02:44:52,071 - INFO - Translation completed: downloads\5f4b3ead-1fd9-4b41-9e3d-ff862d115f7e_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en_translated_en.pdf
+2025-07-22 02:44:52,071 - INFO - Created translated PDF: downloads\03e0b062-5343-43fe-a7c9-05c19df13b88_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en_translated_en.pdf
+2025-07-22 02:44:52,073 - INFO - Translation completed: downloads\77c71561-f982-4491-b728-5b95c0126b62_french_1_translated_en.pdf
+2025-07-22 02:44:52,074 - INFO - Translation completed: downloads\03e0b062-5343-43fe-a7c9-05c19df13b88_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en_translated_en.pdf
+2025-07-22 02:44:55,239 - INFO - 127.0.0.1 - - [22/Jul/2025 02:44:55] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkrl64 HTTP/1.1[0m" 404 -
+2025-07-22 02:45:00,570 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:00] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkrmKS HTTP/1.1[0m" 404 -
+2025-07-22 02:45:02,808 - INFO - Starting translation of: uploads\62c8fea7-9fed-4e12-8940-1fca7e8afe26_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en.pdf
+2025-07-22 02:45:02,810 - INFO - Starting translation of: uploads\5a8e13bd-c488-4ed5-b233-89887d13bf94_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en.pdf
+2025-07-22 02:45:02,813 - INFO - Extracted 153 characters from uploads\62c8fea7-9fed-4e12-8940-1fca7e8afe26_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en.pdf
+2025-07-22 02:45:02,817 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:02] "POST /upload HTTP/1.1" 200 -
+2025-07-22 02:45:02,818 - INFO - Starting translation of: uploads\199ef8e5-91f4-4a0a-b740-6129eae2febb_french_1.pdf
+2025-07-22 02:45:02,823 - INFO - Extracted 154 characters from uploads\5a8e13bd-c488-4ed5-b233-89887d13bf94_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en.pdf
+2025-07-22 02:45:02,842 - INFO - Extracted 119 characters from uploads\199ef8e5-91f4-4a0a-b740-6129eae2febb_french_1.pdf
+2025-07-22 02:45:03,698 - INFO - Detected language: en (en) with confidence None
+2025-07-22 02:45:03,698 - INFO - Detected language: en (en) with confidence None
+2025-07-22 02:45:03,698 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 02:45:03,699 - INFO - Auto-detected language: en
+2025-07-22 02:45:03,699 - INFO - Auto-detected language: en
+2025-07-22 02:45:03,699 - INFO - Auto-detected language: french
+2025-07-22 02:45:03,699 - INFO - Translating 1 chunks from en to en
+2025-07-22 02:45:03,700 - INFO - Translating 1 chunks from en to en
+2025-07-22 02:45:03,700 - INFO - Translating 1 chunks from fr to en
+2025-07-22 02:45:04,462 - INFO - Created translated PDF: downloads\62c8fea7-9fed-4e12-8940-1fca7e8afe26_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en_translated_en.pdf
+2025-07-22 02:45:04,462 - INFO - Created translated PDF: downloads\5a8e13bd-c488-4ed5-b233-89887d13bf94_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en_translated_en.pdf
+2025-07-22 02:45:04,463 - INFO - Translation completed: downloads\62c8fea7-9fed-4e12-8940-1fca7e8afe26_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en_translated_en.pdf
+2025-07-22 02:45:04,463 - INFO - Created translated PDF: downloads\199ef8e5-91f4-4a0a-b740-6129eae2febb_french_1_translated_en.pdf
+2025-07-22 02:45:04,464 - INFO - Translation completed: downloads\5a8e13bd-c488-4ed5-b233-89887d13bf94_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en_translated_en.pdf
+2025-07-22 02:45:04,465 - INFO - Translation completed: downloads\199ef8e5-91f4-4a0a-b740-6129eae2febb_french_1_translated_en.pdf
+2025-07-22 02:45:05,673 - INFO - Starting translation of: uploads\a622e2f3-e2bc-472d-8656-e268b5e3e2f1_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en.pdf
+2025-07-22 02:45:05,675 - INFO - Starting translation of: uploads\4548ad43-4a1d-469f-b229-d92f379aa484_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en.pdf
+2025-07-22 02:45:05,678 - INFO - Extracted 153 characters from uploads\a622e2f3-e2bc-472d-8656-e268b5e3e2f1_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en.pdf
+2025-07-22 02:45:05,712 - INFO - Extracted 154 characters from uploads\4548ad43-4a1d-469f-b229-d92f379aa484_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en.pdf
+2025-07-22 02:45:05,714 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:05] "POST /upload HTTP/1.1" 200 -
+2025-07-22 02:45:05,714 - INFO - Starting translation of: uploads\5c7d3b61-1fda-44de-9d2d-6f5637c0537a_french_1.pdf
+2025-07-22 02:45:05,756 - INFO - Extracted 119 characters from uploads\5c7d3b61-1fda-44de-9d2d-6f5637c0537a_french_1.pdf
+2025-07-22 02:45:05,890 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:05] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkrndn HTTP/1.1[0m" 404 -
+2025-07-22 02:45:06,220 - INFO - Detected language: en (en) with confidence None
+2025-07-22 02:45:06,220 - INFO - Detected language: en (en) with confidence None
+2025-07-22 02:45:06,220 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 02:45:06,220 - INFO - Auto-detected language: en
+2025-07-22 02:45:06,221 - INFO - Auto-detected language: en
+2025-07-22 02:45:06,221 - INFO - Auto-detected language: french
+2025-07-22 02:45:06,221 - INFO - Translating 1 chunks from en to en
+2025-07-22 02:45:06,221 - INFO - Translating 1 chunks from en to en
+2025-07-22 02:45:06,222 - INFO - Translating 1 chunks from fr to en
+2025-07-22 02:45:06,837 - INFO - Created translated PDF: downloads\4548ad43-4a1d-469f-b229-d92f379aa484_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en_translated_en.pdf
+2025-07-22 02:45:06,837 - INFO - Created translated PDF: downloads\a622e2f3-e2bc-472d-8656-e268b5e3e2f1_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en_translated_en.pdf
+2025-07-22 02:45:06,838 - INFO - Translation completed: downloads\4548ad43-4a1d-469f-b229-d92f379aa484_8fee84fb-897f-4363-b5f1-992d4b1d9235_french_1_translated_en_translated_en.pdf
+2025-07-22 02:45:06,839 - INFO - Created translated PDF: downloads\5c7d3b61-1fda-44de-9d2d-6f5637c0537a_french_1_translated_en.pdf
+2025-07-22 02:45:06,839 - INFO - Translation completed: downloads\a622e2f3-e2bc-472d-8656-e268b5e3e2f1_95ed6815-f46c-4db8-999f-e79d237e6423_french_1_translated_en_translated_en.pdf
+2025-07-22 02:45:06,841 - INFO - Translation completed: downloads\5c7d3b61-1fda-44de-9d2d-6f5637c0537a_french_1_translated_en.pdf
+2025-07-22 02:45:10,903 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:10] "[33mGET /socket.io/?EIO=4&transport=polling&t=PWkrowq HTTP/1.1[0m" 404 -
+2025-07-22 02:45:11,877 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:11] "GET /about HTTP/1.1" 200 -
+2025-07-22 02:45:12,036 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-22 02:45:12,141 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-07-22 02:45:38,546 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:38] "GET / HTTP/1.1" 200 -
+2025-07-22 02:45:38,863 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-22 02:45:38,863 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-07-22 02:45:45,618 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:45] "POST /upload HTTP/1.1" 200 -
+2025-07-22 02:45:45,618 - INFO - Starting translation of: uploads\13d1c243-ce84-469d-81d4-4c8d4834f9f9_french_1.pdf
+2025-07-22 02:45:45,642 - INFO - Extracted 119 characters from uploads\13d1c243-ce84-469d-81d4-4c8d4834f9f9_french_1.pdf
+2025-07-22 02:45:45,924 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:45] "GET /status/13d1c243-ce84-469d-81d4-4c8d4834f9f9 HTTP/1.1" 200 -
+2025-07-22 02:45:45,979 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 02:45:45,979 - INFO - Auto-detected language: french
+2025-07-22 02:45:45,980 - INFO - Translating 1 chunks from fr to en
+2025-07-22 02:45:46,659 - INFO - Created translated PDF: downloads\13d1c243-ce84-469d-81d4-4c8d4834f9f9_french_1_translated_en.pdf
+2025-07-22 02:45:46,660 - INFO - Translation completed: downloads\13d1c243-ce84-469d-81d4-4c8d4834f9f9_french_1_translated_en.pdf
+2025-07-22 02:45:47,930 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:47] "GET /status/13d1c243-ce84-469d-81d4-4c8d4834f9f9 HTTP/1.1" 200 -
+2025-07-22 02:45:51,561 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:51] "GET / HTTP/1.1" 200 -
+2025-07-22 02:45:51,577 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-22 02:45:51,826 - INFO - 127.0.0.1 - - [22/Jul/2025 02:45:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-07-22 15:33:48,897 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 15:33:54,312 - WARNING -  * Debugger is active!
+2025-07-22 15:33:54,326 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 15:34:12,219 - INFO - Starting translation of: uploads\9e22f5a9-c999-4fb4-b72e-baf4e6afcbeb_french_1.pdf
+2025-07-22 15:34:12,305 - INFO - Extracted 119 characters from uploads\9e22f5a9-c999-4fb4-b72e-baf4e6afcbeb_french_1.pdf
+2025-07-22 15:34:13,435 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 15:34:13,435 - INFO - Auto-detected language: french
+2025-07-22 15:34:13,436 - INFO - Translating 1 chunks from fr to en
+2025-07-22 15:34:14,975 - INFO - Created translated PDF: downloads\9e22f5a9-c999-4fb4-b72e-baf4e6afcbeb_french_1_translated_en.pdf
+2025-07-22 15:34:14,976 - INFO - Translation completed: downloads\9e22f5a9-c999-4fb4-b72e-baf4e6afcbeb_french_1_translated_en.pdf
+2025-07-22 15:35:41,991 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 15:35:42,511 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 15:35:49,004 - WARNING -  * Debugger is active!
+2025-07-22 15:35:49,033 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 15:48:08,820 - INFO - Starting translation of: uploads\243a1922-438d-4a5b-968d-27184f2a3cd5_french_1.pdf
+2025-07-22 15:48:08,886 - INFO - Extracted 119 characters from uploads\243a1922-438d-4a5b-968d-27184f2a3cd5_french_1.pdf
+2025-07-22 15:48:10,641 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 15:48:10,642 - INFO - Auto-detected language: french
+2025-07-22 15:48:10,643 - INFO - Translating 1 chunks from fr to en
+2025-07-22 15:48:13,704 - INFO - Created translated PDF: downloads\243a1922-438d-4a5b-968d-27184f2a3cd5_french_1_translated_en.pdf
+2025-07-22 15:48:13,708 - INFO - Translation completed: downloads\243a1922-438d-4a5b-968d-27184f2a3cd5_french_1_translated_en.pdf
+2025-07-22 15:56:39,968 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 15:56:45,340 - WARNING -  * Debugger is active!
+2025-07-22 15:56:45,356 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 15:57:01,253 - INFO - Starting translation of: uploads\6d9d5fa4-a0a3-44b8-86ff-1296e3d4d846_french_1.pdf
+2025-07-22 15:57:01,336 - INFO - Extracted 119 characters from uploads\6d9d5fa4-a0a3-44b8-86ff-1296e3d4d846_french_1.pdf
+2025-07-22 15:57:03,347 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 15:57:03,348 - INFO - Auto-detected language: french
+2025-07-22 15:57:03,349 - INFO - Translating 1 chunks from fr to en
+2025-07-22 15:57:04,172 - INFO - Starting translation of: uploads\95352f4d-90b5-4f1c-bf5b-7aea894c08ae_french_1.pdf
+2025-07-22 15:57:04,219 - INFO - Extracted 119 characters from uploads\95352f4d-90b5-4f1c-bf5b-7aea894c08ae_french_1.pdf
+2025-07-22 15:57:04,763 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 15:57:04,765 - INFO - Auto-detected language: french
+2025-07-22 15:57:04,767 - INFO - Translating 1 chunks from fr to en
+2025-07-22 15:57:04,782 - INFO - Created translated PDF: downloads\6d9d5fa4-a0a3-44b8-86ff-1296e3d4d846_french_1_translated_en.pdf
+2025-07-22 15:57:04,784 - INFO - Translation completed: downloads\6d9d5fa4-a0a3-44b8-86ff-1296e3d4d846_french_1_translated_en.pdf
+2025-07-22 15:57:05,087 - INFO - Starting translation of: uploads\8430c1fd-482f-43a5-9ac8-79613b8cf181_french_1.pdf
+2025-07-22 15:57:05,129 - INFO - Extracted 119 characters from uploads\8430c1fd-482f-43a5-9ac8-79613b8cf181_french_1.pdf
+2025-07-22 15:57:05,763 - INFO - Starting translation of: uploads\d9b260b6-72e3-4ac4-b62a-b3e2a5bb2ac9_french_1.pdf
+2025-07-22 15:57:05,814 - INFO - Extracted 119 characters from uploads\d9b260b6-72e3-4ac4-b62a-b3e2a5bb2ac9_french_1.pdf
+2025-07-22 15:57:05,821 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 15:57:05,822 - INFO - Auto-detected language: french
+2025-07-22 15:57:05,828 - INFO - Translating 1 chunks from fr to en
+2025-07-22 15:57:05,845 - INFO - Created translated PDF: downloads\95352f4d-90b5-4f1c-bf5b-7aea894c08ae_french_1_translated_en.pdf
+2025-07-22 15:57:05,849 - INFO - Translation completed: downloads\95352f4d-90b5-4f1c-bf5b-7aea894c08ae_french_1_translated_en.pdf
+2025-07-22 15:57:06,081 - INFO - Starting translation of: uploads\9428d0dd-4b4d-4f7f-b154-5c67603cf616_french_1.pdf
+2025-07-22 15:57:06,110 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 15:57:06,111 - INFO - Auto-detected language: french
+2025-07-22 15:57:06,116 - INFO - Translating 1 chunks from fr to en
+2025-07-22 15:57:06,134 - INFO - Extracted 119 characters from uploads\9428d0dd-4b4d-4f7f-b154-5c67603cf616_french_1.pdf
+2025-07-22 15:57:06,294 - INFO - Starting translation of: uploads\6b72088d-1db5-41d8-acb7-28330f327a70_french_1.pdf
+2025-07-22 15:57:06,359 - INFO - Extracted 119 characters from uploads\6b72088d-1db5-41d8-acb7-28330f327a70_french_1.pdf
+2025-07-22 15:57:07,438 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 15:57:07,440 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 15:57:07,448 - INFO - Auto-detected language: french
+2025-07-22 15:57:07,449 - INFO - Created translated PDF: downloads\8430c1fd-482f-43a5-9ac8-79613b8cf181_french_1_translated_en.pdf
+2025-07-22 15:57:07,453 - INFO - Auto-detected language: french
+2025-07-22 15:57:07,470 - INFO - Translating 1 chunks from fr to en
+2025-07-22 15:57:07,479 - INFO - Created translated PDF: downloads\d9b260b6-72e3-4ac4-b62a-b3e2a5bb2ac9_french_1_translated_en.pdf
+2025-07-22 15:57:07,484 - INFO - Translation completed: downloads\8430c1fd-482f-43a5-9ac8-79613b8cf181_french_1_translated_en.pdf
+2025-07-22 15:57:07,529 - INFO - Translation completed: downloads\d9b260b6-72e3-4ac4-b62a-b3e2a5bb2ac9_french_1_translated_en.pdf
+2025-07-22 15:57:07,551 - INFO - Translating 1 chunks from fr to en
+2025-07-22 15:57:09,553 - INFO - Created translated PDF: downloads\6b72088d-1db5-41d8-acb7-28330f327a70_french_1_translated_en.pdf
+2025-07-22 15:57:09,558 - INFO - Translation completed: downloads\6b72088d-1db5-41d8-acb7-28330f327a70_french_1_translated_en.pdf
+2025-07-22 15:57:09,559 - INFO - Created translated PDF: downloads\9428d0dd-4b4d-4f7f-b154-5c67603cf616_french_1_translated_en.pdf
+2025-07-22 15:57:09,561 - INFO - Translation completed: downloads\9428d0dd-4b4d-4f7f-b154-5c67603cf616_french_1_translated_en.pdf
+2025-07-22 15:59:15,196 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 15:59:20,118 - WARNING -  * Debugger is active!
+2025-07-22 15:59:20,167 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:04:57,765 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:05:03,805 - WARNING -  * Debugger is active!
+2025-07-22 16:05:03,821 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:06:18,901 - INFO - Starting translation of: uploads\7f616dd3-6d1d-4dcf-8b7f-3528a76d5d0f_french_1.pdf
+2025-07-22 16:06:18,984 - INFO - Extracted 119 characters from uploads\7f616dd3-6d1d-4dcf-8b7f-3528a76d5d0f_french_1.pdf
+2025-07-22 16:06:19,980 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:19,981 - INFO - Auto-detected language: french
+2025-07-22 16:06:19,983 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:21,432 - INFO - Created translated PDF: downloads\7f616dd3-6d1d-4dcf-8b7f-3528a76d5d0f_french_1_translated_en.pdf
+2025-07-22 16:06:21,433 - INFO - Translation completed: downloads\7f616dd3-6d1d-4dcf-8b7f-3528a76d5d0f_french_1_translated_en.pdf
+2025-07-22 16:06:40,762 - INFO - Starting translation of: uploads\2218f7ba-e4d1-4f31-8c24-fbe791340ecf_french_1.pdf
+2025-07-22 16:06:40,812 - INFO - Extracted 119 characters from uploads\2218f7ba-e4d1-4f31-8c24-fbe791340ecf_french_1.pdf
+2025-07-22 16:06:41,801 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:41,802 - INFO - Auto-detected language: french
+2025-07-22 16:06:41,802 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:43,140 - INFO - Created translated PDF: downloads\2218f7ba-e4d1-4f31-8c24-fbe791340ecf_french_1_translated_en.pdf
+2025-07-22 16:06:43,140 - INFO - Translation completed: downloads\2218f7ba-e4d1-4f31-8c24-fbe791340ecf_french_1_translated_en.pdf
+2025-07-22 16:06:45,050 - INFO - Starting translation of: uploads\ba28adc8-7913-42ff-806f-9e5c5a39d5c6_french_1.pdf
+2025-07-22 16:06:45,099 - INFO - Extracted 119 characters from uploads\ba28adc8-7913-42ff-806f-9e5c5a39d5c6_french_1.pdf
+2025-07-22 16:06:45,800 - INFO - Starting translation of: uploads\915d0cd5-a9a3-4f0e-bf50-73a757412a29_french_1.pdf
+2025-07-22 16:06:45,856 - INFO - Extracted 119 characters from uploads\915d0cd5-a9a3-4f0e-bf50-73a757412a29_french_1.pdf
+2025-07-22 16:06:46,032 - INFO - Starting translation of: uploads\ddc05130-c50b-4618-8e43-59466e63fef0_french_1.pdf
+2025-07-22 16:06:46,073 - INFO - Extracted 119 characters from uploads\ddc05130-c50b-4618-8e43-59466e63fef0_french_1.pdf
+2025-07-22 16:06:46,234 - INFO - Starting translation of: uploads\356ed01d-ecdc-409a-8d9a-2529da2cf7d9_french_1.pdf
+2025-07-22 16:06:46,277 - INFO - Extracted 119 characters from uploads\356ed01d-ecdc-409a-8d9a-2529da2cf7d9_french_1.pdf
+2025-07-22 16:06:46,400 - INFO - Starting translation of: uploads\97ef4c05-85cd-4489-a3fe-6623ef0712d6_french_1.pdf
+2025-07-22 16:06:46,462 - INFO - Extracted 119 characters from uploads\97ef4c05-85cd-4489-a3fe-6623ef0712d6_french_1.pdf
+2025-07-22 16:06:46,570 - INFO - Starting translation of: uploads\f7bd38c2-526f-48dc-ae2a-83e6d47708e3_french_1.pdf
+2025-07-22 16:06:46,613 - INFO - Extracted 119 characters from uploads\f7bd38c2-526f-48dc-ae2a-83e6d47708e3_french_1.pdf
+2025-07-22 16:06:46,737 - INFO - Starting translation of: uploads\232bd75e-c37a-46b7-91b2-45ced657a942_french_1.pdf
+2025-07-22 16:06:46,781 - INFO - Extracted 119 characters from uploads\232bd75e-c37a-46b7-91b2-45ced657a942_french_1.pdf
+2025-07-22 16:06:46,897 - INFO - Starting translation of: uploads\adbc8feb-ad1d-4969-8258-9ccdcab18bbc_french_1.pdf
+2025-07-22 16:06:46,920 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:46,921 - INFO - Auto-detected language: french
+2025-07-22 16:06:46,922 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:46,938 - INFO - Extracted 119 characters from uploads\adbc8feb-ad1d-4969-8258-9ccdcab18bbc_french_1.pdf
+2025-07-22 16:06:47,085 - INFO - Starting translation of: uploads\4c6aa2a7-b610-4cee-9610-424106093074_french_1.pdf
+2025-07-22 16:06:47,153 - INFO - Extracted 119 characters from uploads\4c6aa2a7-b610-4cee-9610-424106093074_french_1.pdf
+2025-07-22 16:06:47,257 - INFO - Starting translation of: uploads\d9ef8287-3f38-47de-acfa-1320b2b624ee_french_1.pdf
+2025-07-22 16:06:47,320 - INFO - Extracted 119 characters from uploads\d9ef8287-3f38-47de-acfa-1320b2b624ee_french_1.pdf
+2025-07-22 16:06:47,427 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:47,429 - INFO - Starting translation of: uploads\33a1baba-1946-4a81-8f2d-6aaf579e0930_french_1.pdf
+2025-07-22 16:06:47,430 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:47,435 - INFO - Auto-detected language: french
+2025-07-22 16:06:47,437 - INFO - Auto-detected language: french
+2025-07-22 16:06:47,438 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:47,439 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:47,501 - INFO - Extracted 119 characters from uploads\33a1baba-1946-4a81-8f2d-6aaf579e0930_french_1.pdf
+2025-07-22 16:06:47,734 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:47,736 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:47,738 - INFO - Auto-detected language: french
+2025-07-22 16:06:47,739 - INFO - Auto-detected language: french
+2025-07-22 16:06:47,740 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:47,741 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:48,240 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:48,241 - INFO - Auto-detected language: french
+2025-07-22 16:06:48,254 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:48,472 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:48,473 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:48,475 - INFO - Auto-detected language: french
+2025-07-22 16:06:48,480 - INFO - Auto-detected language: french
+2025-07-22 16:06:48,481 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:48,481 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:48,823 - INFO - Created translated PDF: downloads\232bd75e-c37a-46b7-91b2-45ced657a942_french_1_translated_en.pdf
+2025-07-22 16:06:48,825 - INFO - Created translated PDF: downloads\ddc05130-c50b-4618-8e43-59466e63fef0_french_1_translated_en.pdf
+2025-07-22 16:06:48,825 - INFO - Translation completed: downloads\232bd75e-c37a-46b7-91b2-45ced657a942_french_1_translated_en.pdf
+2025-07-22 16:06:48,831 - INFO - Translation completed: downloads\ddc05130-c50b-4618-8e43-59466e63fef0_french_1_translated_en.pdf
+2025-07-22 16:06:49,087 - INFO - Starting translation of: uploads\a0e04c0a-e945-4565-b43c-32139139cfa5_french_1.pdf
+2025-07-22 16:06:49,140 - INFO - Extracted 119 characters from uploads\a0e04c0a-e945-4565-b43c-32139139cfa5_french_1.pdf
+2025-07-22 16:06:49,268 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:49,268 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:49,269 - INFO - Auto-detected language: french
+2025-07-22 16:06:49,269 - INFO - Auto-detected language: french
+2025-07-22 16:06:49,270 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:49,270 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:49,597 - INFO - Starting translation of: uploads\f611a7ed-3d35-49f8-aa0d-4658b4a4c4c2_french_1.pdf
+2025-07-22 16:06:49,649 - INFO - Extracted 119 characters from uploads\f611a7ed-3d35-49f8-aa0d-4658b4a4c4c2_french_1.pdf
+2025-07-22 16:06:49,679 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:49,682 - INFO - Auto-detected language: french
+2025-07-22 16:06:49,682 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:49,695 - INFO - Created translated PDF: downloads\adbc8feb-ad1d-4969-8258-9ccdcab18bbc_french_1_translated_en.pdf
+2025-07-22 16:06:49,698 - INFO - Translation completed: downloads\adbc8feb-ad1d-4969-8258-9ccdcab18bbc_french_1_translated_en.pdf
+2025-07-22 16:06:49,805 - INFO - Starting translation of: uploads\21c01298-3c98-47ef-91ce-5f6621b7d6b9_french_1.pdf
+2025-07-22 16:06:49,864 - INFO - Extracted 119 characters from uploads\21c01298-3c98-47ef-91ce-5f6621b7d6b9_french_1.pdf
+2025-07-22 16:06:49,950 - INFO - Created translated PDF: downloads\97ef4c05-85cd-4489-a3fe-6623ef0712d6_french_1_translated_en.pdf
+2025-07-22 16:06:49,953 - INFO - Translation completed: downloads\97ef4c05-85cd-4489-a3fe-6623ef0712d6_french_1_translated_en.pdf
+2025-07-22 16:06:49,955 - INFO - Created translated PDF: downloads\356ed01d-ecdc-409a-8d9a-2529da2cf7d9_french_1_translated_en.pdf
+2025-07-22 16:06:49,961 - INFO - Created translated PDF: downloads\ba28adc8-7913-42ff-806f-9e5c5a39d5c6_french_1_translated_en.pdf
+2025-07-22 16:06:49,969 - INFO - Created translated PDF: downloads\f7bd38c2-526f-48dc-ae2a-83e6d47708e3_french_1_translated_en.pdf
+2025-07-22 16:06:49,970 - INFO - Translation completed: downloads\356ed01d-ecdc-409a-8d9a-2529da2cf7d9_french_1_translated_en.pdf
+2025-07-22 16:06:49,971 - INFO - Translation completed: downloads\ba28adc8-7913-42ff-806f-9e5c5a39d5c6_french_1_translated_en.pdf
+2025-07-22 16:06:49,973 - INFO - Translation completed: downloads\f7bd38c2-526f-48dc-ae2a-83e6d47708e3_french_1_translated_en.pdf
+2025-07-22 16:06:49,987 - INFO - Starting translation of: uploads\07c97c8d-5219-4ede-8bd9-79262d035f20_french_1.pdf
+2025-07-22 16:06:50,039 - INFO - Extracted 119 characters from uploads\07c97c8d-5219-4ede-8bd9-79262d035f20_french_1.pdf
+2025-07-22 16:06:50,147 - INFO - Starting translation of: uploads\bda43944-926d-441e-8cdb-ff815d66f0b2_french_1.pdf
+2025-07-22 16:06:50,202 - INFO - Created translated PDF: downloads\915d0cd5-a9a3-4f0e-bf50-73a757412a29_french_1_translated_en.pdf
+2025-07-22 16:06:50,208 - INFO - Extracted 119 characters from uploads\bda43944-926d-441e-8cdb-ff815d66f0b2_french_1.pdf
+2025-07-22 16:06:50,212 - INFO - Translation completed: downloads\915d0cd5-a9a3-4f0e-bf50-73a757412a29_french_1_translated_en.pdf
+2025-07-22 16:06:50,352 - INFO - Starting translation of: uploads\88c9cc96-6e8c-4e1e-86a9-f2836fc3eb9a_french_1.pdf
+2025-07-22 16:06:50,501 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:50,508 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:50,521 - INFO - Auto-detected language: french
+2025-07-22 16:06:50,534 - INFO - Extracted 119 characters from uploads\88c9cc96-6e8c-4e1e-86a9-f2836fc3eb9a_french_1.pdf
+2025-07-22 16:06:50,535 - INFO - Auto-detected language: french
+2025-07-22 16:06:50,538 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:50,565 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:50,578 - INFO - Starting translation of: uploads\95a8f5b4-2b3d-4e24-9870-37de4789d7e2_french_1.pdf
+2025-07-22 16:06:50,603 - INFO - Created translated PDF: downloads\33a1baba-1946-4a81-8f2d-6aaf579e0930_french_1_translated_en.pdf
+2025-07-22 16:06:50,612 - INFO - Translation completed: downloads\33a1baba-1946-4a81-8f2d-6aaf579e0930_french_1_translated_en.pdf
+2025-07-22 16:06:50,661 - INFO - Extracted 119 characters from uploads\95a8f5b4-2b3d-4e24-9870-37de4789d7e2_french_1.pdf
+2025-07-22 16:06:50,802 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:50,805 - INFO - Auto-detected language: french
+2025-07-22 16:06:50,807 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:51,520 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:51,522 - INFO - Auto-detected language: french
+2025-07-22 16:06:51,524 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:51,528 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:51,529 - INFO - Auto-detected language: french
+2025-07-22 16:06:51,531 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:51,534 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:51,534 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:51,539 - INFO - Auto-detected language: french
+2025-07-22 16:06:51,540 - INFO - Auto-detected language: french
+2025-07-22 16:06:51,558 - INFO - Created translated PDF: downloads\d9ef8287-3f38-47de-acfa-1320b2b624ee_french_1_translated_en.pdf
+2025-07-22 16:06:51,561 - INFO - Created translated PDF: downloads\4c6aa2a7-b610-4cee-9610-424106093074_french_1_translated_en.pdf
+2025-07-22 16:06:51,568 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:51,571 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:51,576 - INFO - Translation completed: downloads\d9ef8287-3f38-47de-acfa-1320b2b624ee_french_1_translated_en.pdf
+2025-07-22 16:06:51,588 - INFO - Translation completed: downloads\4c6aa2a7-b610-4cee-9610-424106093074_french_1_translated_en.pdf
+2025-07-22 16:06:51,606 - INFO - Created translated PDF: downloads\07c97c8d-5219-4ede-8bd9-79262d035f20_french_1_translated_en.pdf
+2025-07-22 16:06:51,609 - INFO - Translation completed: downloads\07c97c8d-5219-4ede-8bd9-79262d035f20_french_1_translated_en.pdf
+2025-07-22 16:06:51,643 - INFO - Created translated PDF: downloads\a0e04c0a-e945-4565-b43c-32139139cfa5_french_1_translated_en.pdf
+2025-07-22 16:06:51,662 - INFO - Translation completed: downloads\a0e04c0a-e945-4565-b43c-32139139cfa5_french_1_translated_en.pdf
+2025-07-22 16:06:51,667 - INFO - Created translated PDF: downloads\f611a7ed-3d35-49f8-aa0d-4658b4a4c4c2_french_1_translated_en.pdf
+2025-07-22 16:06:51,673 - INFO - Translation completed: downloads\f611a7ed-3d35-49f8-aa0d-4658b4a4c4c2_french_1_translated_en.pdf
+2025-07-22 16:06:51,885 - INFO - Starting translation of: uploads\5c89203a-1387-4e40-9898-dcbba3461237_french_1.pdf
+2025-07-22 16:06:51,956 - INFO - Extracted 119 characters from uploads\5c89203a-1387-4e40-9898-dcbba3461237_french_1.pdf
+2025-07-22 16:06:52,437 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:52,438 - INFO - Auto-detected language: french
+2025-07-22 16:06:52,438 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:52,454 - INFO - Created translated PDF: downloads\21c01298-3c98-47ef-91ce-5f6621b7d6b9_french_1_translated_en.pdf
+2025-07-22 16:06:52,472 - INFO - Translation completed: downloads\21c01298-3c98-47ef-91ce-5f6621b7d6b9_french_1_translated_en.pdf
+2025-07-22 16:06:52,474 - INFO - Created translated PDF: downloads\88c9cc96-6e8c-4e1e-86a9-f2836fc3eb9a_french_1_translated_en.pdf
+2025-07-22 16:06:52,476 - INFO - Created translated PDF: downloads\bda43944-926d-441e-8cdb-ff815d66f0b2_french_1_translated_en.pdf
+2025-07-22 16:06:52,485 - INFO - Translation completed: downloads\88c9cc96-6e8c-4e1e-86a9-f2836fc3eb9a_french_1_translated_en.pdf
+2025-07-22 16:06:52,490 - INFO - Translation completed: downloads\bda43944-926d-441e-8cdb-ff815d66f0b2_french_1_translated_en.pdf
+2025-07-22 16:06:52,531 - INFO - Created translated PDF: downloads\95a8f5b4-2b3d-4e24-9870-37de4789d7e2_french_1_translated_en.pdf
+2025-07-22 16:06:52,535 - INFO - Translation completed: downloads\95a8f5b4-2b3d-4e24-9870-37de4789d7e2_french_1_translated_en.pdf
+2025-07-22 16:06:52,542 - INFO - Starting translation of: uploads\2089d5b8-882e-421b-9f9d-7dc863e5fefe_french_1.pdf
+2025-07-22 16:06:52,595 - INFO - Extracted 119 characters from uploads\2089d5b8-882e-421b-9f9d-7dc863e5fefe_french_1.pdf
+2025-07-22 16:06:53,168 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:06:53,169 - INFO - Auto-detected language: french
+2025-07-22 16:06:53,172 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:06:53,182 - INFO - Created translated PDF: downloads\5c89203a-1387-4e40-9898-dcbba3461237_french_1_translated_en.pdf
+2025-07-22 16:06:53,183 - INFO - Translation completed: downloads\5c89203a-1387-4e40-9898-dcbba3461237_french_1_translated_en.pdf
+2025-07-22 16:06:53,651 - INFO - Created translated PDF: downloads\2089d5b8-882e-421b-9f9d-7dc863e5fefe_french_1_translated_en.pdf
+2025-07-22 16:06:53,665 - INFO - Translation completed: downloads\2089d5b8-882e-421b-9f9d-7dc863e5fefe_french_1_translated_en.pdf
+2025-07-22 16:14:23,884 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:14:29,785 - WARNING -  * Debugger is active!
+2025-07-22 16:14:29,798 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:14:29,916 - INFO -  * Detected change in 'C:\\Python312\\Lib\\threading.py', reloading
+2025-07-22 16:14:29,916 - INFO -  * Detected change in 'C:\\Python312\\Lib\\threading.py', reloading
+2025-07-22 16:14:29,955 - INFO -  * Detected change in 'C:\\Python312\\Lib\\site-packages\\eventlet\\convenience.py', reloading
+2025-07-22 16:14:29,955 - INFO -  * Detected change in 'C:\\Python312\\Lib\\site-packages\\eventlet\\convenience.py', reloading
+2025-07-22 16:14:31,197 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:14:31,275 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:14:36,380 - WARNING -  * Debugger is active!
+2025-07-22 16:14:36,387 - WARNING -  * Debugger is active!
+2025-07-22 16:14:36,391 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:14:36,399 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:15:49,865 - INFO - Starting translation of: uploads\a3126c54-0d90-4908-bbe2-5c2514b72070_french_1.pdf
+2025-07-22 16:15:49,929 - INFO - Extracted 119 characters from uploads\a3126c54-0d90-4908-bbe2-5c2514b72070_french_1.pdf
+2025-07-22 16:15:51,075 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:15:51,076 - INFO - Auto-detected language: french
+2025-07-22 16:15:51,077 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:15:52,311 - INFO - Created translated PDF: downloads\a3126c54-0d90-4908-bbe2-5c2514b72070_french_1_translated_en.pdf
+2025-07-22 16:15:52,314 - INFO - Translation completed: downloads\a3126c54-0d90-4908-bbe2-5c2514b72070_french_1_translated_en.pdf
+2025-07-22 16:16:21,375 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\app_simple.py', reloading
+2025-07-22 16:16:21,379 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\app_simple.py', reloading
+2025-07-22 16:16:22,265 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:19:33,930 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:19:39,610 - WARNING -  * Debugger is active!
+2025-07-22 16:19:39,627 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:21:53,678 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:21:59,036 - WARNING -  * Debugger is active!
+2025-07-22 16:21:59,052 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:22:19,706 - INFO - Starting translation of: uploads\bfcd0437-14e8-4221-b239-c11526562c50_french_1.pdf
+2025-07-22 16:22:19,778 - INFO - Extracted 119 characters from uploads\bfcd0437-14e8-4221-b239-c11526562c50_french_1.pdf
+2025-07-22 16:22:21,490 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:22:21,492 - INFO - Auto-detected language: french
+2025-07-22 16:22:21,493 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:22:22,761 - INFO - Created translated PDF: downloads\bfcd0437-14e8-4221-b239-c11526562c50_french_1_translated_en.pdf
+2025-07-22 16:22:22,762 - INFO - Translation completed: downloads\bfcd0437-14e8-4221-b239-c11526562c50_french_1_translated_en.pdf
+2025-07-22 16:24:07,422 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:24:07,423 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:24:07,946 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:24:13,663 - WARNING -  * Debugger is active!
+2025-07-22 16:24:13,678 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:24:25,415 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:24:25,419 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:24:26,595 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:24:32,651 - WARNING -  * Debugger is active!
+2025-07-22 16:24:32,662 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:24:36,877 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:24:38,336 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:24:43,722 - WARNING -  * Debugger is active!
+2025-07-22 16:24:43,740 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:24:49,255 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:24:49,257 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:24:50,416 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:24:56,335 - WARNING -  * Debugger is active!
+2025-07-22 16:24:56,352 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:25:00,683 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:25:00,695 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:25:02,095 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:25:07,530 - WARNING -  * Debugger is active!
+2025-07-22 16:25:07,545 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:25:16,727 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:25:16,730 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:25:17,346 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:25:23,003 - WARNING -  * Debugger is active!
+2025-07-22 16:25:23,019 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:25:55,009 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:26:00,543 - WARNING -  * Debugger is active!
+2025-07-22 16:26:00,559 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:26:19,253 - INFO - Starting translation of: uploads\792d951b-c03f-4cc7-92ce-ddf5fb1d335d_french_1.pdf
+2025-07-22 16:26:19,326 - INFO - Extracted 119 characters from uploads\792d951b-c03f-4cc7-92ce-ddf5fb1d335d_french_1.pdf
+2025-07-22 16:26:20,386 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:26:20,387 - INFO - Auto-detected language: french
+2025-07-22 16:26:20,409 - INFO - Preserved 4 proper nouns/entities
+2025-07-22 16:26:20,410 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:26:22,272 - INFO - Restored 4 proper nouns/entities
+2025-07-22 16:26:22,290 - INFO - Created translated PDF: downloads\792d951b-c03f-4cc7-92ce-ddf5fb1d335d_french_1_translated_en.pdf
+2025-07-22 16:26:22,291 - INFO - Translation completed: downloads\792d951b-c03f-4cc7-92ce-ddf5fb1d335d_french_1_translated_en.pdf
+2025-07-22 16:27:42,121 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:27:43,391 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:27:48,867 - WARNING -  * Debugger is active!
+2025-07-22 16:27:48,879 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:28:01,973 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:28:02,894 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:28:08,554 - WARNING -  * Debugger is active!
+2025-07-22 16:28:08,567 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:28:30,504 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:28:30,966 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:28:36,975 - WARNING -  * Debugger is active!
+2025-07-22 16:28:36,990 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:28:55,234 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:28:56,188 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:29:01,559 - WARNING -  * Debugger is active!
+2025-07-22 16:29:01,571 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:29:18,147 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:29:18,148 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:29:18,687 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:29:24,338 - WARNING -  * Debugger is active!
+2025-07-22 16:29:24,351 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:29:59,956 - INFO - Starting translation of: uploads\e88ad674-c27f-4786-b904-a867a8b04632_french_1.pdf
+2025-07-22 16:30:00,048 - INFO - Extracted 119 characters from uploads\e88ad674-c27f-4786-b904-a867a8b04632_french_1.pdf
+2025-07-22 16:30:05,235 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:30:05,236 - INFO - Auto-detected language: french
+2025-07-22 16:30:05,241 - INFO - Preserved 4 proper nouns/entities
+2025-07-22 16:30:05,241 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:30:07,336 - INFO - Restored 0 proper nouns/entities
+2025-07-22 16:30:07,337 - WARNING - Could not restore 4 placeholders
+2025-07-22 16:30:07,349 - INFO - Created translated PDF: downloads\e88ad674-c27f-4786-b904-a867a8b04632_french_1_translated_en.pdf
+2025-07-22 16:30:07,353 - INFO - Translation completed: downloads\e88ad674-c27f-4786-b904-a867a8b04632_french_1_translated_en.pdf
+2025-07-22 16:31:22,427 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:31:22,429 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\pdf_translator.py', reloading
+2025-07-22 16:31:22,986 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:31:28,834 - WARNING -  * Debugger is active!
+2025-07-22 16:31:28,858 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 16:31:55,142 - INFO - Starting translation of: uploads\e931396c-7ab3-4375-814a-0e34cb9b4927_french_1.pdf
+2025-07-22 16:31:55,202 - INFO - Extracted 119 characters from uploads\e931396c-7ab3-4375-814a-0e34cb9b4927_french_1.pdf
+2025-07-22 16:31:57,722 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 16:31:57,723 - INFO - Auto-detected language: french
+2025-07-22 16:31:57,724 - INFO - Translating 1 chunks from fr to en
+2025-07-22 16:31:58,860 - INFO - Created translated PDF: downloads\e931396c-7ab3-4375-814a-0e34cb9b4927_french_1_translated_en.pdf
+2025-07-22 16:31:58,861 - INFO - Translation completed: downloads\e931396c-7ab3-4375-814a-0e34cb9b4927_french_1_translated_en.pdf
+2025-07-22 16:42:50,905 - INFO -  * Detected change in 'C:\\Users\\user\\OneDrive\\Desktop\\pdf-translator-bot\\webapp\\app.py', reloading
+2025-07-22 16:42:52,144 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 16:42:58,649 - WARNING -  * Debugger is active!
+2025-07-22 16:42:58,666 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 22:03:51,759 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 22:03:54,312 - WARNING -  * Debugger is active!
+2025-07-22 22:03:54,319 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 22:06:52,381 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 22:06:54,803 - WARNING -  * Debugger is active!
+2025-07-22 22:06:54,809 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 22:07:13,834 - INFO - Starting translation of: uploads\18fd1b76-3402-4b32-942e-a9cef132e881_french_1.pdf
+2025-07-22 22:07:13,866 - INFO - Extracted 119 characters from uploads\18fd1b76-3402-4b32-942e-a9cef132e881_french_1.pdf
+2025-07-22 22:07:15,595 - INFO - Detected language: french (fr) with confidence None
+2025-07-22 22:07:15,595 - INFO - Auto-detected language: french
+2025-07-22 22:07:15,595 - INFO - Translating 1 chunks from fr to en
+2025-07-22 22:07:16,076 - INFO - Created translated PDF: downloads\18fd1b76-3402-4b32-942e-a9cef132e881_french_1_translated_en.pdf
+2025-07-22 22:07:16,077 - INFO - Translation completed: downloads\18fd1b76-3402-4b32-942e-a9cef132e881_french_1_translated_en.pdf
+2025-07-22 22:22:16,804 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 22:22:19,261 - WARNING -  * Debugger is active!
+2025-07-22 22:22:19,266 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 22:22:32,152 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\app.py', reloading
+2025-07-22 22:22:32,169 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\templating.py', reloading
+2025-07-22 22:22:32,187 - INFO -  * Detected change in 'C:\\Python312\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-07-22 22:22:32,205 - INFO -  * Detected change in 'C:\\Python312\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2025-07-22 22:22:32,703 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 22:22:35,274 - WARNING -  * Debugger is active!
+2025-07-22 22:22:35,280 - INFO -  * Debugger PIN: 111-014-270
+2025-07-22 22:25:04,556 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-22 22:25:06,971 - WARNING -  * Debugger is active!
+2025-07-22 22:25:06,977 - INFO -  * Debugger PIN: 111-014-270

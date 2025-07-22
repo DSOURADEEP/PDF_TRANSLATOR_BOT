@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+
+{% block title %}About - PDF Translation Bot{% endblock %}
+
+{% block content %}
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="text-center mb-5">
+                    <i class="fas fa-language fa-4x text-primary mb-3"></i>
+                    <h1>About PDF Translation Bot</h1>
+                    <p class="lead text-muted">Transform PDFs from any language to English with AI-powered translation</p>
+                </div>
+
+                <!-- Features -->
+                <div class="row mb-5">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="text-primary mb-3">
+                                    <i class="fas fa-globe fa-2x"></i>
+                                </div>
+                                <h5 class="card-title">Multi-Language Support</h5>
+                                <p class="card-text">Supports 15+ languages including Finnish, French, Spanish, German, Italian, Portuguese, Russian, Chinese, Japanese, Korean, and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="text-primary mb-3">
+                                    <i class="fas fa-robot fa-2x"></i>
+                                </div>
+                                <h5 class="card-title">Auto-Detection</h5>
+                                <p class="card-text">Automatically detects the source language of your PDF documents, making translation effortless and accurate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="text-primary mb-3">
+                                    <i class="fas fa-layer-group fa-2x"></i>
+                                </div>
+                                <h5 class="card-title">Batch Processing</h5>
+                                <p class="card-text">Upload and translate multiple PDF files simultaneously, saving time and increasing productivity.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="text-primary mb-3">
+                                    <i class="fas fa-download fa-2x"></i>
+                                </div>
+                                <h5 class="card-title">High-Quality Output</h5>
+                                <p class="card-text">Generate professionally formatted PDF documents with preserved layout and structure after translation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- How It Works -->
+                <div class="mb-5">
+                    <h2 class="text-center mb-4">How It Works</h2>
+                    <div class="row">
+                        <div class="col-md-4 text-center mb-4">
+                            <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <span class="fw-bold">1</span>
+                            </div>
+                            <h5>Upload PDF</h5>
+                            <p class="text-muted">Select your PDF file(s) to be translated</p>
+                        </div>
+                        <div class="col-md-4 text-center mb-4">
+                            <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <span class="fw-bold">2</span>
+                            </div>
+                            <h5>AI Translation</h5>
+                            <p class="text-muted">Our AI extracts text and translates it to English</p>
+                        </div>
+                        <div class="col-md-4 text-center mb-4">
+                            <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <span class="fw-bold">3</span>
+                            </div>
+                            <h5>Download Result</h5>
+                            <p class="text-muted">Get your translated PDF ready for use</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Supported Languages -->
+                <div class="mb-5">
+                    <h2 class="text-center mb-4">Supported Languages</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Finnish</li>
+                                <li><i class="fas fa-check text-success me-2"></i>French</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Spanish</li>
+                                <li><i class="fas fa-check text-success me-2"></i>German</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Italian</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Portuguese</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Russian</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Chinese</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Japanese</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Korean</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Dutch</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Swedish</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Norwegian</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Danish</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Polish</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Details -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-cogs me-2"></i>
+                            Technical Details
+                        </h5>
+                        <p class="card-text">
+                            This application uses advanced AI translation services to provide accurate translations 
+                            while preserving the original PDF structure. Built with Python, Flask, and modern web technologies 
+                            for a seamless user experience.
+                        </p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <strong>Maximum File Size:</strong> 50MB
+                            </div>
+                            <div class="col-sm-6">
+                                <strong>Supported Format:</strong> PDF only
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

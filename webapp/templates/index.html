@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block title %}Single File Translation{% endblock %}
+
+{% block content %}
+    <!-- Page Heading -->
+    <h1 class="text-center mb-4">Translate PDF</h1>
+
+    <!-- Form -->
+    <form id="pdfForm" class="needs-validation" novalidate>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Language Selection -->
+                        <div class="mb-3">
+                            <label for="sourceLang" class="form-label">Select Language</label>
+                            <select class="form-select" id="sourceLang" required>
+                                <option value="auto" selected>Auto-detect</option>
+                                {% for lang_name, lang_code in languages.items() %}
+                                    <option value="{{ lang_code }}">{{ lang_name.title() }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+
+                        <!-- File Input -->
+                        <div class="mb-3">
+                            <label for="pdfFile" class="form-label">Choose PDF File</label>
+                            <input class="form-control" type="file" id="pdfFile" accept=".pdf" required>
+                            <div class="invalid-feedback">Please select a PDF file.</div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary w-100">Translate</button>
+                    </div>
+                </div>
+                <!-- Progress Bar -->
+                <div class="progress my-3 d-none" id="progressBar">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 0%;" id="progress">
+                        0%
+                    </div>
+                </div>
+
+                <!-- Result -->
+                <div id="resultContainer" class="alert d-none mt-3"></div>
+            </div>
+        </div>
+    </form>
+{% endblock %}
+
+{% block extra_scripts %}
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var form = document.getElementById("pdfForm");
+            var socket = io();
+
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+                if (form.checkValidity()) {
+                    var formData = new FormData();
+                    formData.append("files[]", document.getElementById("pdfFile").files[0]);
+                    formData.append("source_lang", document.getElementById("sourceLang").value);
+
+                    // Show progress bar
+                    var progressBar = document.getElementById("progress");
+                    progressBar.style.width = "0%";
+                    progressBar.textContent = "0%";
+                    document.getElementById("progressBar").classList.remove("d-none");
+
+                    fetch("{{ url_for('upload_file') }}", {
+                        method: "POST",
+                        body: formData
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.task_ids) {
+                            var taskId = data.task_ids[0];
+
+                            // Listen for server-side events
+                            socket.on('connect', function() {
+                                console.log("Connected", socket.id);
+                            });
+                            socket.on('translation_status', function (msg) {
+                                console.log(msg);
+                                if (msg.task_id === taskId) {
+                                    var resultContainer = document.getElementById("resultContainer");
+                                    if (msg.status === "completed") {
+                                        resultContainer.classList.remove("d-none", "alert-danger");
+                                        resultContainer.classList.add("alert", "alert-success");
+                                        resultContainer.innerHTML = `<strong>Success!</strong> Translation completed. <a href="${msg.download_url}" class="alert-link">Download here</a>.`;
+                                        progressBar.style.width = "100%";
+                                        progressBar.textContent = "100%";
+                                    } else if (msg.status === "failed") {
+                                        resultContainer.classList.remove("d-none", "alert-success");
+                                        resultContainer.classList.add("alert", "alert-danger");
+                                        resultContainer.innerHTML = `<strong>Error!</strong> ${msg.message}.`;
+                                        progressBar.style.width = "100%";
+                                        progressBar.classList.remove("bg-success");
+                                        progressBar.classList.add("bg-danger");
+                                        progressBar.textContent = "Failed";
+                                    } else if (msg.status === "processing") {
+                                        progressBar.style.width = "50%";
+                                        progressBar.textContent = "50%";
+                                    }
+                                }
+                            });
+                        } else {
+                            alert('Upload failed: ' + data.error);
+                        }
+                    })
+                    .catch(error => {
+                        alert('An error occurred: ' + error.message);
+                    });
+
+                } else {
+                    form.classList.add("was-validated");
+                }
+            });
+        });
+    </script>
+{% endblock %}
